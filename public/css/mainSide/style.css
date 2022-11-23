@@ -1,0 +1,219 @@
+.loading {
+    margin-bottom: 500px;
+}
+a {
+    text-decoration: none;
+}
+.col {
+    margin-bottom: 10px;
+}
+.row div {
+    font-size: 11px;
+}
+.card {
+    border-radius: 10px;
+    font-size: 10px;
+}
+h5 {
+    font-size: 13px;
+}
+.card img {
+    border-radius: 10px;
+    width: 92%;
+    height: 180px;
+    margin-left: 4%;
+    object-fit: cover;
+}
+b {
+    font-weight: 500;
+}
+.bgItem {
+    width: 139px;
+    border-radius: 10px;
+    margin-left: 0%;
+    background-color: rgb(245, 245, 245);
+}
+.textCenter {
+    margin-left: 36%;
+}
+.bgJmlItem {
+    width: 100px;
+    height: 10px;
+    padding-top: 10px;
+}
+.itemTerpilih {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid rgb(150, 153, 0);
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.itemTerpilih:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+/* Modal */
+.Modal {
+    top: 75px;
+    left: 5%;
+    width: 90%;
+    height: 700px;
+    border-radius: 10px;
+    border: 1px solid rgb(150, 153, 0);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.bgModal {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 905px;
+    background-color: rgba(0, 0, 0, 0.199);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.x-circle {
+    top: 80px;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.x-circle:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+/* List Keranjang */
+.keranjangItem {
+    top: 10px;
+    left: 5%;
+    width: 90%;
+    height: 100px;
+}
+.keranjangItem .row .col button {
+    border: 0;
+}
+/* Masukkan ke Data */
+.masukkanKeranjang {
+    bottom: 100px;
+    left: 22%;
+    background-color: rgb(150, 153, 0);
+    z-index: 99999999;
+}
+.masukkanKeranjang:hover {
+    background: rgb(122, 124, 0);
+}
+.editStock {
+    font-size: 11px;
+}
+.batal {
+    margin-left: 0%;
+}
+.editStock {
+    margin-left: 25%;
+}
+.sendSelectedData {
+    margin-left: 2%;
+}
+.loading00 {
+    top: 22%;
+    left: 57%;
+}
+.trashCard {
+    width: 35px;
+    height: 35px;
+    margin-left: 130px;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.trashCard:hover {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+/* input other hand */
+.otherHand {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+/* Desktop Screen */
+@media (min-width: 992px) {
+    .trashCard {
+        margin-left: 220px;
+    }
+    .sendSelectedData {
+        margin-left: 21%;
+    }
+    .batal {
+        margin-left: 19%;
+    }
+    .editStock {
+        margin-left: 35%;
+    }
+    .row div {
+        font-size: 14px;
+    }
+    .card {
+        width: 18rem;
+        border-radius: 10px;
+        height: 330px;
+    }
+    .card img {
+        height: 240px;
+    }
+    .textCenter {
+        margin-left: 42%;
+    }
+    .bgItem {
+        margin-left: 20%;
+    }
+    /* Tombol Keranjang */
+    .itemTerpilih {
+        width: 100px;
+        height: 100px;
+        right: 80px;
+        bottom: 50px;
+    }
+    /* Modal */
+    /* List Keranjang */
+    .keranjangItem {
+        top: 5px;
+        width: 90%;
+        height: 100px;
+    }
+    .Modal {
+        top: 70px;
+        left: 25%;
+        width: 50%;
+        height: 570px;
+        padding-left: 10px;
+    }
+    .bgModal {
+        height: 700px;
+    }
+    .x-circle {
+        top: 75px;
+        right: 25%;
+    }
+    /* Masukkan ke Data */
+    .masukkanKeranjang {
+        bottom: 60px;
+        left: 42%;
+        background-color: rgb(150, 153, 0);
+    }
+}

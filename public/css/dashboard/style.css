@@ -1,0 +1,64 @@
+.row div {
+    font-size: 10px;
+}
+.penampungData {
+    width: 100%;
+}
+.Modal {
+    right: 35%;
+}
+.Modal img {
+    width: 150px;
+}
+.dateNoneMobile {
+    display: none;
+}
+.dateMobile {
+    display: block;
+}
+input {
+    margin-left: 20%;
+    margin-top: 12px;
+}
+.gambarPerItem {
+    width: 40px;
+}
+.hapusRow {
+    width: 40px;
+    font-size: 7px;
+}
+.otherHandDash {
+    font-size: 80%;
+}
+@media (min-width: 992px) {
+    .penampungData {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .dateNoneMobile {
+        display: block;
+    }
+    .dateMobile {
+        display: none;
+    }
+    .row div {
+        font-size: 15px;
+    }
+    input {
+        margin-left: 1%;
+        margin-top: 9px;
+    }
+    .gambarPerItem {
+        width: 60px;
+    }
+    .hapusRow {
+        width: 90px;
+        font-size: 15px;
+    }
+    .Modal {
+        right: 35%;
+    }
+    .Modal img {
+        width: 300px;
+    }
+}
